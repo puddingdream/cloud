@@ -54,8 +54,7 @@ jobs:
         run: |
           STATUS=$(aws autoscaling describe-instance-refreshes \
             --auto-scaling-group-name "${{ vars.ASG_NAME }}" \
-            --max-items 1 \
-            --query "InstanceRefreshes[0].Status" \
+            --query "sort_by(InstanceRefreshes,&StartTime)[-1].Status" \
             --output text)
 
           if [ "$STATUS" = "Pending" ] || [ "$STATUS" = "InProgress" ]; then
