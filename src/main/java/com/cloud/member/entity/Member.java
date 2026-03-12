@@ -21,13 +21,20 @@ public class Member {
     private String name;
     @Column(nullable = false)
     private int age;
+    @Enumerated(EnumType.STRING)
     @Column(nullable = false)
     private MbtiType mbtiType;
+    @Column
+    private String profileImageKey;
 
     public Member(String name, int age, MbtiType mbtiType) {
         this.name = name;
         this.age = age;
         this.mbtiType = mbtiType;
+    }
+
+    public void updateProfileImageKey(String profileImageKey) {
+        this.profileImageKey = profileImageKey;
     }
 
     public static Member from(MemberCreateRequest request) {
