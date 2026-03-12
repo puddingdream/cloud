@@ -1,0 +1,32 @@
+spring:
+  cloud:
+    aws:
+      s3:
+        bucket: camp-cloud-dorayaki-files
+  config:
+    import: aws-parameterstore:/camp-cloud-app/prod/
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+
+  jpa:
+    properties:
+      hibernate:
+        dialect: org.hibernate.dialect.MySQLDialect
+    hibernate:
+      ddl-auto: validate
+
+management:
+  endpoint:
+    health:
+      show-details: never
+  info:
+    env:
+      enabled: true
+
+info:
+  app:
+    message: ${APP_MESSAGE:}
+
+logging:
+  level:
+    root: INFO
