@@ -25,7 +25,9 @@
 - 예산 80% 도달 시 이메일 알림 설정
 
 ### 증빙
-- AWS Budgets 설정 완료 화면: `<사진>`
+- AWS Budgets 설정 완료 화면: `<<img width="747" height="608" alt="Image" src="https://github.com/user-attachments/assets/f6cfe979-67e4-4e73-a3ac-dcebb9bf92db" />
+
+<img width="1280" height="853" alt="Image" src="https://github.com/user-attachments/assets/f8731403-4579-4ef4-85a5-6953519a6252" />>`
 
 ---
 
@@ -46,7 +48,7 @@
 
 ### 제출 요구사항
 - EC2 Public IP: `<EC2 Public IP>`
-- 관련 증빙: `<사진>`
+- 관련 증빙: `<<img width="914" height="903" alt="Image" src="https://github.com/user-attachments/assets/748ef57b-af7b-49b1-a659-8358feae9208" />>`
 
 ---
 
@@ -62,8 +64,8 @@
 
 ### 제출 요구사항
 1. Actuator info URL: `<http://.../actuator/info>`
-2. RDS 보안 그룹 인바운드 화면(EC2 SG ID 소스 확인): `<사진>`
-3. `/actuator/info` 응답 화면: `<사진>`
+2. RDS 보안 그룹 인바운드 화면(EC2 SG ID 소스 확인): `<<img width="1280" height="450" alt="Image" src="https://github.com/user-attachments/assets/e750214f-4a74-4be2-97df-d6c31e79ed31" />>`
+3. `/actuator/info` 응답 화면: `<<img width="914" height="903" alt="Image" src="https://github.com/user-attachments/assets/748ef57b-af7b-49b1-a659-8358feae9208" />>`
 
 ---
 
@@ -79,8 +81,11 @@
 
 ### 제출 요구사항
 - Presigned URL 1개: `<URL>`
-- 만료 시간: `<expiresAt>`
-- IAM Role 방식 제출 시 접근 성공 스크린샷: `<사진>`
+- 만료 시간: `<<img width="1279" height="1101" alt="Image" src="https://github.com/user-attachments/assets/d73a94c6-3d08-4c1c-a424-4999d1962a46" />
+- <img width="1279" height="1101" alt="Image" src="https://github.com/user-attachments/assets/0cc28a5e-4299-4e46-a32d-88761e3d376b" />
+>`
+- IAM Role 방식 제출 시 접근 성공 스크린샷: `<<img width="1280" height="1163" alt="Image" src="https://github.com/user-attachments/assets/0e0392b7-81ce-4efc-ae00-60fc4165c9fa" />
+<img width="1280" height="1163" alt="Image" src="https://github.com/user-attachments/assets/a3d0cf7a-e0b3-4cfb-bb2d-ef35c32079c1" />>`
 
 ---
 
@@ -95,8 +100,9 @@
 - 코드 push 시 서버 자동 반영 확인
 
 ### 제출 요구사항
-1. Github Actions 성공 화면: `<사진>`
-2. EC2 `sudo docker ps` 실행 화면: `<사진>`
+1. Github Actions 성공 화면: `<<img width="1280" height="687" alt="Image" src="https://github.com/user-attachments/assets/dc05ded6-cc8c-4df7-88a4-ac3231cc636c" />
+>`
+2. EC2 `sudo docker ps` 실행 화면: `<<img width="1280" height="122" alt="Image" src="https://github.com/user-attachments/assets/ab42d854-51f2-4426-8f5c-380fad9e5c60" />>`
 
 ---
 
@@ -113,8 +119,8 @@
 
 ### 제출 요구사항
 - HTTPS 적용 도메인 URL: `https://api.devnest.click`
-- Target Group Registered targets Healthy 화면: `<사진>`
-- ALB 리스너 설정 화면: `<사진>`
+- Target Group Registered targets Healthy 화면: `<<img width="502" height="201" alt="Image" src="https://github.com/user-attachments/assets/e23b418a-e1d3-40b3-b858-c429f6c20b7c" />>`
+- ALB 리스너 설정 화면: `<<img width="1280" height="714" alt="Image" src="https://github.com/user-attachments/assets/6428b871-6d0c-4d38-abb9-8a693ac9b242" />>`
 
 ---
 
@@ -127,7 +133,7 @@
 ### 제출 요구사항
 - CloudFront 이미지 URL 1개 (필수 형식: `https://dxxxxxxx.cloudfront.net/...`)
   - `https://d1y67ty5km7ay2.cloudfront.net/members/4/profile/7448e26c-4804-4703-ac44-c9c20288ae6a-Screenshot_250930_005258.jpg`
-- CloudFront 이미지 접근 성공 화면: `<사진>`
+- CloudFront 이미지 접근 성공 화면: `<<img width="1280" height="782" alt="Image" src="https://github.com/user-attachments/assets/73becda6-c003-4e17-9dc0-b40d06eb0011" />>`
 
 ---
 
@@ -193,4 +199,4 @@
 - [x] LV5 HTTPS 도메인 + ALB/ASG 완료
 - [x] LV6 CloudFront 이미지 조회 완료
 
-최종 검증 캡처: `<사진>`
+
